@@ -21,7 +21,7 @@ pipeline {
        }
        }
 
-       stage('Deploy  Code') {
+       stage('Deploy Code') {
 	   
           steps {
                sh """
@@ -29,12 +29,6 @@ pipeline {
 			   """
                
           }
-<<<<<<< HEAD
-      }
-      }
-      }
-=======
        }
-   }
+   }  
 }
->>>>>>> e9fbaf514072839d3da6b4b8ac7195a11965f9ea
