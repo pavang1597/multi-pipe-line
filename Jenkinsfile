@@ -21,7 +21,7 @@ pipeline {
        }
        }
 
-       stage('Deploy Code') {
+       stage('Deploy  Code') {
 	   
           steps {
                sh """
@@ -30,5 +30,5 @@ pipeline {
                
           }
       }
-      }
+      }
       }
