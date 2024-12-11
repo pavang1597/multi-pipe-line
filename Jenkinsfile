@@ -30,6 +30,6 @@ pipeline {
                echo "Deploying Code"
                
           }
-      }
-      }
-      }
+       }
+   }
+}
